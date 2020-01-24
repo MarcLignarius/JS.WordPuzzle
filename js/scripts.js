@@ -8,6 +8,21 @@ $(function() {
             $("#output").text("This field is required.");
             return false;
         }
-        console.log("userInput", userInput)
+        console.log("userInput", userInput);
+        let splitInput = replaceVowels(userInput);
+        console.log("splitInput", splitInput);
     });
+
+    function replaceVowels(userInput) {
+        let vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+        let splitInput = userInput.split("");
+        for (let i = 0; i < splitInput.length; i++) {
+            for (let j = 0; j < vowel.length; j++) {
+                if (splitInput[i] === vowel[j]) {
+                    splitInput[i] = "-";
+                }
+            }
+        }
+        return splitInput;
+    }
 });
