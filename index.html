@@ -6,28 +6,47 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Site Title</title>
+    <title>Word Puzzle</title>
   </head>
   <body>
     <nav
       class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between"
     >
-      <h3>Site Title</h3>
+      <h3>Word Puzzle</h3>
       <h6>
         Marc Davies | <a href="https://github.com/MarcLignarius">GitHub</a> |
         <a href="https://www.linkedin.com/in/marcdaviesriot/">LinkedIn</a>
       </h6>
     </nav>
     <div class="container mt-5">
+      <h3 class="mb-3">Instructions:</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Create a website that uses a method to replace vowels in a string with
+        the dash symbol "-" to create a word puzzle to solve. Hide the original
+        string when you show the resulting word puzzle, so that another person
+        can try and guess it. Do this without regular expressions.
       </p>
+      <p>Example:</p>
+      <ul class="text-muted mb-5">
+        <li>
+          String Input: "Believe you can and you're halfway there. Theodore
+          Roosevelt"
+        </li>
+        <li>
+          Puzzle Output: "B-l--v- y-- c-n -nd y--'r- h-lfw-y th-r-. Th--d-r-
+          R--s-v-lt"
+        </li>
+      </ul>
+      <form class="mb-5" id="userForm">
+        <div class="form-group">
+          <label for="userInput"><h3>Enter a sentence:</h3></label>
+          <textarea class="form-control" id="userInput" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn btn-lg btn-dark">Submit</button>
+      </form>
+      <div id="output">
+        
+      </div>
     </div>
     <footer>
       <h6 class="text-center">Thanks for visiting!</h6>
