@@ -1,28 +1,24 @@
-# _{Application Name}_
+# _Word Puzzle_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _01/25/2020_
 
 #### By _**Marc Davies**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Program that replaces vowels with "-" to create a word puzzle to solve._
 
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
 * _Open index.html_
-* _Alternatively, launch https://marclignarius.github.io/projectname_
+* _Alternatively, launch https://marclignarius.github.io/JS.WordPuzzle_
 
 ## Specs
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
+| User enters a sentence, program returns sentence with a dash "-" replacing vowels. | Believe you can and you're halfway there. Theodore Roosevelt | B-l--v- y-- c-n -nd y--'r- h-lfw-y th-r-. Th--d-r- R--s-v-lt |
 
 ## Known Bugs
 
