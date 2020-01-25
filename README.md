@@ -30,7 +30,7 @@ _Please contact me via <a href="https://www.linkedin.com/in/marcdaviesriot/">Lin
 
 ## Technologies Used
 
-_HTML, CSS, JS, Bootstrap, jQuery, Atom._
+_HTML, CSS, JS, Bootstrap, jQuery_
 
 ### License
 
