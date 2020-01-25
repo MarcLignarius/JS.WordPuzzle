@@ -1,11 +1,11 @@
 $(function() {
   $("#userForm").submit(function(event) {
     event.preventDefault();
-    //retrieve sentence entered by user, save it as userInput
+    // retrieve sentence entered by user, save it as userInput
     let userInput = $("#userInput").val();
     let form = document.getElementById("userForm");
     form.reset();
-    // validates that something was submitted in the form
+    // check for empty field
     if (userInput == "") {
       $("#output").text("This field is required.");
       return false;
